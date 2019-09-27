@@ -1,27 +1,5 @@
 ## 0.5.0 (Unreleased)
 
-IMPROVEMENTS
-
-* Added `VolumeType` to `cmopute/v2/extensions/bootfromvolume.BlockDevice` [GH-1690]
-* Added `networking/v2/extensions/layer3/portforwarding.List` [GH-1688]
-* Added `networking/v2/extensions/layer3/portforwarding.Get` [GH-1698]
-* Added `compute/v2/extensions/tags.ReplaceAll` [GH-1696]
-* Added `compute/v2/extensions/tags.Add` [GH-1696]
-* Added `networking/v2/extensions/layer3/portforwarding.Update` [GH-1703]
-* Added `ExtractDomain` method to token results in `identity/v3/tokens` [GH-1712]
-* Added `AllowedCIDRs` to `loadbalancer/v2/listeners.CreateOpts` [GH-1710]
-* Added `AllowedCIDRs` to `loadbalancer/v2/listeners.UpdateOpts` [GH-1710]
-* Added `AllowedCIDRs` to `loadbalancer/v2/listeners.Listener` [GH-1710]
-* Added `compute/v2/extensions/tags.Add` [GH-1695]
-* Added `compute/v2/extensions/tags.ReplaceAll` [GH-1694]
-* Added `compute/v2/extensions/tags.Delete` [GH-1699]
-* Added `compute/v2/extensions/tags.DeleteAll` [GH-1700]
-
-BUG FIXES
-
-* Changed struct type for options in `networking/v2/extensions/lbaas_v2/listeners` to `UpdateOptsBuilder` interface instead of specific UpdateOpts type [GH-1705]
-* Changed struct type for options in `networking/v2/extensions/lbaas_v2/loadbalancers` to `UpdateOptsBuilder` interface instead of specific UpdateOpts type [GH-1706]
-
 ## 0.4.0 (September 3, 2019)
 
 IMPROVEMENTS

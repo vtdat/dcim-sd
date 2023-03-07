@@ -7,7 +7,7 @@ require (
 	github.com/go-kit/kit v0.9.0
 	github.com/gophercloud/gophercloud v0.4.0 // indirect
 	github.com/hashicorp/consul/api v1.2.0 // indirect
-	github.com/miekg/dns v1.1.18 // indirect
+	github.com/miekg/dns v1.1.25 // indirect
 	github.com/prometheus/common v0.7.0
 	github.com/prometheus/prometheus v2.12.0+incompatible
 	github.com/samuel/go-zookeeper v0.0.0-20190923202752-2cc03de413da // indirect
